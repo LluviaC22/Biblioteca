@@ -1,6 +1,7 @@
-import PrestamoModel from "../../models/PrestamoModel.js"; 
-import LibroModel from "../../models/LibroModel.js";
-import ReservaModel from "../../models/ReservaModel.js";
+import ReservaModel from '../models/ReservaModel.js';
+import PrestamoModel from "../models/PrestamoModel.js"
+import LibroModel from '../models/LibroModel.js';
+
 
 //Endpoint para camabiar el estado de la reserva
 export const cambiarEstadoReserva = async (req, res) => {
