@@ -21,7 +21,7 @@
     },
     {
       "src": "/(.*)", 
-      "dest": "my-react/build/index.html"
+      "dest": "my-react/build"
     }
   ]
 }
