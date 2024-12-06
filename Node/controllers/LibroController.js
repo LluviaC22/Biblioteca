@@ -1,8 +1,8 @@
 
 //Importar los modelos
-import PrestamoModel from "../models/PrestamoModel.js"; 
-import LibroModel from "../models/LibroModel.js";
-import ReservaModel from "../models/ReservaModel.Js";
+import PrestamoModel from "@models/PrestamoModel.js"; 
+import LibroModel from "@models/LibroModel.js";
+import ReservaModel from "@models/ReservaModel.Js";
 import { Op } from "sequelize";
 
 //MÉTODOS PARA EL CRUD 

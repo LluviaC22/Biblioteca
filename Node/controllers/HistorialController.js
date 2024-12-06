@@ -1,6 +1,6 @@
-import ReservaModel from "../models/ReservaModel.Js";
-import PrestamoModel from "../models/PrestamoModel.js"
-import LibroModel from '../models/LibroModel.js';
+import ReservaModel from "@models/ReservaModel.Js";
+import PrestamoModel from "@models/PrestamoModel.js"
+import LibroModel from '@models/LibroModel.js';
 
 
 //Endpoint para camabiar el estado de la reserva

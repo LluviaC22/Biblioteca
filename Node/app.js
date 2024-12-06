@@ -1,6 +1,7 @@
 import express from "express"
 import cors from "cors"
 import dotenv from 'dotenv';
+import 'module-alias/register';
 
 //Importar conexión a la BD
 import db from "./database/db.js";

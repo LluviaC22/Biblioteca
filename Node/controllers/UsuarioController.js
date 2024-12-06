@@ -1,7 +1,7 @@
 import bcrypt from 'bcrypt'; //Biblioteca para el hash de contraseñas
 import jwt from 'jsonwebtoken'; //Bib para generar y verificar tokens
 import validator from 'validator'; // Importar validator para las validaciones
-import UsuarioModel from '../models/UsuarioModel.js';
+import UsuarioModel from '@models/UsuarioModel.js';
 
 //FUNCIÓN DE LOGIN
 export const login = async (req, res) => {
