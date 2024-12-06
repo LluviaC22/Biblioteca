@@ -26,6 +26,7 @@
 
   },
   "_moduleAliases": {
-    "@models": "./Node/models"
+    "@models": "./Node/models",
+    "@controllers": "./Node/controllers"
   }
 }
