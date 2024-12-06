@@ -4,7 +4,7 @@ import axios from 'axios';
 import { Link } from 'react-router-dom';
 import { Modal, Button } from 'react-bootstrap';
 import './Registro.css';
-import logo from './assets/logo.jpeg';
+import logo from '/assets/logo.jpeg';
 
 const Registro = () => {
   const [nombre, setNombre] = useState('');

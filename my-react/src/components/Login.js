@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import axios from 'axios';
 import { Modal, Button } from 'react-bootstrap';
 import './Login.css'; 
-import logo from './assets/logo.jpeg'; 
+import logo from '/assets/logo.jpeg'; 
 
 const Login = () => {
   const [email, setEmail] = useState('');

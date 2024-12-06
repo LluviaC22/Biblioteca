@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import './Catalogo.css';
-import CienciasSocialesImage from './assets/Ciencias Sociales.jpeg';
-import MatematicasImage from './assets/matematicas.jpeg';
-import GeografiaImage from './assets/Geografia.jpeg';
-import TecnologiasImage from './assets/Tecnologias.jpeg';
-import LiteraturaImage from './assets/Literatura.jpeg';
+import CienciasSocialesImage from '/assets/Ciencias Sociales.jpeg';
+import MatematicasImage from '/assets/matematicas.jpeg';
+import GeografiaImage from '/assets/Geografia.jpeg';
+import TecnologiasImage from '/assets/Tecnologias.jpeg';
+import LiteraturaImage from '/assets/Literatura.jpeg';
 
 const Catalogo = () => {
   const [searchTerm, setSearchTerm] = useState('');
